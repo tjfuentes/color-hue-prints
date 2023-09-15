@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media (max-width: 500px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #fbfaf9;
+  }
+  
+  
+  .main-container {
+    margin: 15px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services {
+    font-size: 1rem;
+    color: #d2a73b;
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .title-container p {
+    text-transform: uppercase;
+    
+  }
+  
+  .b-name {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #c23b3f;
+  }
+  
+  .sub-name {
+    font-size: 1rem;
+    color: #63a2b7;
+  }
+
+  .objects {
+    height: 100px;
+    width: 100px;
+    background-color: #c23b3f;
+    -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .objects1 {
+    height: 100px;
+    width: 100px;
+    background-color: #63a2b7;
+    -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .objects2 {
+    height: 100%;
+    width: 80px;
+    background-color: #d2a73b;
+    -webkit-clip-path: polygon(15% 0, 51% 0, 50% 100%, 14% 100%);
+    position: absolute;
+    bottom: 0px;
+    left: -25px;
+    z-index: -1;
+  }
+
+  .btn-services {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c23b3f;
+    color: #fbfaf9;
+    border: 0;
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+  }
+
+  .socmed {
+    display: flex;
+    position: relative;
+    gap: 40px;
+    bottom: -480px;
+    font-size: 2rem;
+  }
+
+  .bxl-facebook-circle {
+    color: blue;
+  }
+
+  .bxs-envelope {
+    color: blue;
+  }
+
+  .bxs-phone {
+    color: blue;
+  }
+
+
+}
+
+
